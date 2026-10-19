@@ -1,0 +1,2 @@
+export type GalleryItem={src:string;alt:string};
+export const galleries:Record<"travel"|"fitness"|"currency",GalleryItem[]>={travel:[1,2,3,4,5,6].map(n=>({src:`/images/travel/travel-0${n}.jpg`,alt:"Add a personal travel photograph"})),fitness:[1,2,3,4].map(n=>({src:`/images/fitness/fitness-0${n}.jpg`,alt:"Add a personal fitness photograph"})),currency:[1,2,3,4].map(n=>({src:`/images/currency/currency-0${n}.jpg`,alt:"Add a banknote or coin collection photograph"}))};
