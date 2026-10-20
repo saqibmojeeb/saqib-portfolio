@@ -40,7 +40,8 @@
 .brand-external:hover{text-decoration:underline}
 .brand-note{margin-top:22px;font-size:12px;color:#83999f}
 @media(max-width:760px){.room-scene-reference{aspect-ratio:1652 / 766;margin-top:12px;background-size:100% 100%}.room-caption{font-size:8px}.hotspot-fitness{left:0;top:10%;width:25%;height:83%}.hotspot-travel{left:25%;top:5%;width:40%;height:42%}.hotspot-home{left:30%;top:44%;width:36%;height:43%}.hotspot-work{right:1%;top:13%;width:30%;height:37%}.hotspot-brand{left:65%;top:59%;width:10%;height:23%}.hotspot-currency{right:6%;top:70%;width:12%;height:17%}.brand-page{padding:22px 12px 105px}.brand-card{grid-template-columns:1fr;gap:18px;padding:20px}.brand-mark{width:90px}.brand-frame .back-link{margin-bottom:30px}}
-/* Mobile room layout improvement */
+
+/* Mobile room layout */
 @media (max-width: 600px) {
   .room-page {
     padding: 16px 10px 110px;
@@ -48,8 +49,10 @@
 
   .room-scene-reference {
     width: 100%;
-    aspect-ratio: 1652 / 766;
+    aspect-ratio: 1024 / 1536;
+    background-image: url('/images/room/room-mobile.png');
     background-size: 100% 100%;
+    background-position: center;
   }
 
   .room-caption {
@@ -60,6 +63,49 @@
   .room-footer {
     gap: 8px;
     font-size: 8px;
+  }
+
+  .hotspot-work {
+    left: 15%;
+    right: 15%;
+    top: 6%;
+    width: 70%;
+    height: 19%;
+  }
+
+  .hotspot-travel {
+    left: 15%;
+    top: 24%;
+    width: 70%;
+    height: 14%;
+  }
+
+  .hotspot-home {
+    left: 29%;
+    top: 43%;
+    width: 42%;
+    height: 35%;
+  }
+
+  .hotspot-fitness {
+    left: 0%;
+    top: 47%;
+    width: 34%;
+    height: 36%;
+  }
+
+  .hotspot-brand {
+    left: 65%;
+    top: 68%;
+    width: 15%;
+    height: 12%;
+  }
+
+  .hotspot-currency {
+    right: 0%;
+    top: 68%;
+    width: 22%;
+    height: 13%;
   }
 
   .bottom-nav {
