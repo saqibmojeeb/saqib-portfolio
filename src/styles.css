@@ -40,3 +40,37 @@
 .brand-external:hover{text-decoration:underline}
 .brand-note{margin-top:22px;font-size:12px;color:#83999f}
 @media(max-width:760px){.room-scene-reference{aspect-ratio:1652 / 766;margin-top:12px;background-size:100% 100%}.room-caption{font-size:8px}.hotspot-fitness{left:0;top:10%;width:25%;height:83%}.hotspot-travel{left:25%;top:5%;width:40%;height:42%}.hotspot-home{left:30%;top:44%;width:36%;height:43%}.hotspot-work{right:1%;top:13%;width:30%;height:37%}.hotspot-brand{left:65%;top:59%;width:10%;height:23%}.hotspot-currency{right:6%;top:70%;width:12%;height:17%}.brand-page{padding:22px 12px 105px}.brand-card{grid-template-columns:1fr;gap:18px;padding:20px}.brand-mark{width:90px}.brand-frame .back-link{margin-bottom:30px}}
+/* Mobile room layout improvement */
+@media (max-width: 600px) {
+  .room-page {
+    padding: 16px 10px 110px;
+  }
+
+  .room-scene-reference {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-size: 100% 100%;
+  }
+
+  .room-caption {
+    font-size: 8px;
+    gap: 8px;
+  }
+
+  .room-footer {
+    gap: 8px;
+    font-size: 8px;
+  }
+
+  .bottom-nav {
+    width: max-content;
+    max-width: calc(100vw - 16px);
+    gap: 1px;
+  }
+
+  .bottom-nav > a,
+  .bottom-nav > .nav-disabled {
+    padding: 9px 7px;
+    font-size: 9px;
+  }
+}
