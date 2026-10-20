@@ -40,6 +40,8 @@
 .brand-external:hover{text-decoration:underline}
 .brand-note{margin-top:22px;font-size:12px;color:#83999f}
 @media(max-width:760px){.room-scene-reference{aspect-ratio:9 / 16;margin-top:12px;background-size:contain}.room-caption{font-size:8px}
+}
+
 /* Mobile room layout */
 @media (max-width: 600px) {
     .room-topline,
