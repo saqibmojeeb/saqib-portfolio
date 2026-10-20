@@ -43,6 +43,20 @@
 
 /* Mobile room layout */
 @media (max-width: 600px) {
+    .room-topline,
+  .room-caption,
+  .room-footer {
+    display: none;
+  }
+
+  .room-scene-reference {
+    border: none;
+    box-shadow: none;
+  }
+
+  .room-scene-reference::before {
+    display: none;
+  }
   .room-page {
     padding: 16px 10px 110px;
   }
