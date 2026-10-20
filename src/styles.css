@@ -39,8 +39,7 @@
 .brand-external{display:inline-flex;align-items:center;gap:8px;margin-top:8px;color:#7ce5d8;text-decoration:none;font-weight:600}
 .brand-external:hover{text-decoration:underline}
 .brand-note{margin-top:22px;font-size:12px;color:#83999f}
-@media(max-width:760px){.room-scene-reference{aspect-ratio:1652 / 766;margin-top:12px;background-size:100% 100%}.room-caption{font-size:8px}.hotspot-fitness{left:0;top:10%;width:25%;height:83%}.hotspot-travel{left:25%;top:5%;width:40%;height:42%}.hotspot-home{left:30%;top:44%;width:36%;height:43%}.hotspot-work{right:1%;top:13%;width:30%;height:37%}.hotspot-brand{left:65%;top:59%;width:10%;height:23%}.hotspot-currency{right:6%;top:70%;width:12%;height:17%}.brand-page{padding:22px 12px 105px}.brand-card{grid-template-columns:1fr;gap:18px;padding:20px}.brand-mark{width:90px}.brand-frame .back-link{margin-bottom:30px}}
-
+@media(max-width:760px){.room-scene-reference{aspect-ratio:9 / 16;margin-top:12px;background-size:contain}.room-caption{font-size:8px}
 /* Mobile room layout */
 @media (max-width: 600px) {
     .room-topline,
@@ -63,10 +62,11 @@
 
   .room-scene-reference {
     width: 100%;
-    aspect-ratio: 1024 / 1536;
-    background-image: url('/images/room/room-mobile.png');
-    background-size: 100% 100%;
-    background-position: center;
+   aspect-ratio: 9 / 16;
+background-image: url('/images/room/room-mobile.png');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
   }
 
   .room-caption {
