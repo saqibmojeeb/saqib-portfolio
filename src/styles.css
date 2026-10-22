@@ -443,3 +443,90 @@ background-repeat: no-repeat;
     flex-direction: column;
   }
 }
+
+/* New single-image My 2036 Vision page */
+.vision-page {
+  min-height: 100vh;
+  padding: 24px;
+  background: #111318;
+  color: #f5f0e8;
+}
+
+.vision-page-header {
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  text-align: center;
+  position: relative;
+}
+
+.vision-home-link {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  color: #d4c6a4;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.vision-page-header h1 {
+  margin: 0;
+  font: 600 clamp(32px, 5vw, 56px)/1.1 "Space Grotesk", sans-serif;
+}
+
+.vision-page-header h1 span {
+  color: #e6bd7a;
+}
+
+.vision-page-header p {
+  margin-top: 10px;
+  color: #b9b4a9;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+}
+
+.vision-image-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.vision-image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .vision-page {
+    padding: 12px 8px 24px;
+  }
+
+  .vision-page-header {
+    margin-bottom: 14px;
+    padding-top: 34px;
+  }
+
+  .vision-home-link {
+    top: 0;
+  }
+
+  .vision-page-header h1 {
+    font-size: 32px;
+  }
+
+  .vision-page-header p {
+    font-size: 9px;
+    line-height: 1.6;
+  }
+
+  .vision-image-container img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+}
