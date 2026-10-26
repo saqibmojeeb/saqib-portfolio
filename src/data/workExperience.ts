@@ -19,6 +19,26 @@ export const workExperience:Experience[]=[
     "Contributing to the foundational processes and workflows required to support SIPse's early-stage launch."
   ]
 },
-{id:"phonepe",tab:"PhonePe",organization:"PhonePe",role:"Customer Experience Specialist (Process Improvement)",dates:"Add exact dates",overview:"Fintech operations experience supporting customer-facing workflows and mutual fund processes.",responsibilities:["Add confirmed responsibilities, workflows, and stakeholder collaboration."],contributions:["Add verified process improvements and outcomes."]},
+
+{
+  id: "phonepe",
+  tab: "PhonePe",
+  organization: "PhonePe",
+  role: "Customer Experience Specialist, Mutual Fund",
+  dates: "June 2024 – November 2025",
+  overview:
+    "Worked across mutual fund operations and customer experience, improving operational workflows, investigating transaction issues, and collaborating with Product and Engineering teams.",
+  responsibilities: [
+    "Managed end-to-end workflows for mutual fund transaction reporting.",
+    "Investigated flagged transactions, escalations, and operational issues.",
+    "Performed data validations and collaborated with Product, Engineering, and external stakeholders.",
+    "Built weekly and monthly business review (WBR/MBR) dashboards to monitor operational performance."
+  ],
+  contributions: [
+    "Improved resolution turnaround time by 20% through bulk-workflow automation and stronger data validations.",
+    "Reported mutual fund transactions through the BSE StAR MF portal to help prevent order-processing delays.",
+    "Audited support tickets and translated recurring user issues into structured problem statements for relevant teams."
+  ]
+},
 {id:"groww",tab:"Groww",organization:"Groww",role:"Confirm exact title",dates:"Add exact dates",overview:"Previous fintech experience. Update this overview with your preferred description.",responsibilities:["Add confirmed responsibilities and mutual fund operations experience."],contributions:["Add verified contributions and outcomes."]},
 {id:"internships",tab:"Internships",organization:"Internships",role:"Add role",dates:"Add dates",overview:"Add internship details when ready.",responsibilities:["Replace with confirmed details."],contributions:["Add verified contributions if applicable."]}];
