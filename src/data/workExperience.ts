@@ -63,4 +63,38 @@ export const workExperience:Experience[]=[
     "Coordinated cross-functional issue resolution with internal teams and external stakeholders."
   ]
 },
-{id:"internships",tab:"Internships",organization:"Internships",role:"Add role",dates:"Add dates",overview:"Add internship details when ready.",responsibilities:["Replace with confirmed details."],contributions:["Add verified contributions if applicable."]}];
+
+{
+  id: "growth-arrow",
+  tab: "Growth Arrow",
+  organization: "Growth Arrow",
+  role: "Finance Intern",
+  dates: "May 2021 – June 2021",
+  overview:
+    "Worked on financial research, sector analysis, and investment modelling to support valuation and investment decisions.",
+  responsibilities: [
+    "Produced sector reports and investment memos through research and data aggregation using Microsoft Excel and Word.",
+    "Analyzed market trends and company financials to support investment recommendations.",
+    "Created financial models for valuation analysis and capital allocation decisions."
+  ],
+  contributions: [
+    "Supported investment analysis by consolidating financial data, evaluating market trends, and modelling potential investment outcomes."
+  ]
+},
+{
+  id: "power-square",
+  tab: "Power Square",
+  organization: "Power Square India Pvt. Ltd.",
+  role: "Marketing and Sales Intern",
+  dates: "April 2019 – May 2019",
+  overview:
+    "Supported marketing and sales initiatives through promotional activities, customer feedback analysis, and market research.",
+  responsibilities: [
+    "Contributed to marketing collateral development and coordinated outreach activities to increase brand engagement.",
+    "Analyzed customer feedback and sales data to identify patterns and refine promotional strategies.",
+    "Prepared reports on market trends and competitor activities to support data-informed business decisions."
+  ],
+  contributions: [
+    "Supported promotional strategy improvements through customer and sales data analysis."
+  ]
+},
