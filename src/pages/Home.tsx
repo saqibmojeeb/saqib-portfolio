@@ -16,7 +16,7 @@ import { profile } from "../data/profile";
 const socialLinks = [
   { name: "LinkedIn", icon: Linkedin, value: profile.linkedin },
   { name: "GitHub", icon: Github, value: profile.github },
-  { name: "Instagram", icon: Instagram, value: "" },
+  { name: "Instagram", icon: Instagram, value: profile.instagram },
   { name: "Contact", icon: Mail, value: profile.email },
 ];
 
