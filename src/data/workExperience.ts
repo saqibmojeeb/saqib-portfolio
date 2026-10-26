@@ -97,4 +97,5 @@ export const workExperience:Experience[]=[
   contributions: [
     "Supported promotional strategy improvements through customer and sales data analysis."
   ]
-},
+ }
+];
