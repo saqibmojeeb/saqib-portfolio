@@ -40,5 +40,27 @@ export const workExperience:Experience[]=[
     "Audited support tickets and translated recurring user issues into structured problem statements for relevant teams."
   ]
 },
-{id:"groww",tab:"Groww",organization:"Groww",role:"Confirm exact title",dates:"Add exact dates",overview:"Previous fintech experience. Update this overview with your preferred description.",responsibilities:["Add confirmed responsibilities and mutual fund operations experience."],contributions:["Add verified contributions and outcomes."]},
+
+{
+  id: "groww",
+  tab: "Groww",
+  organization: "Groww",
+  role: "Senior Executive",
+  dates: "November 2021 – June 2024",
+  overview:
+    "Worked across fintech operations and mutual fund transaction processing, investigating system issues, validating transactions, and analyzing operational data to improve process accuracy.",
+  responsibilities: [
+    "Managed customer escalations by investigating issues and coordinating with relevant teams to drive timely resolution.",
+    "Investigated system and customer issues using SQL and database metadata.",
+    "Analyzed operational data to identify trends and process gaps.",
+    "Performed data validation using Swagger to verify transaction accuracy.",
+    "Processed and monitored mutual fund transactions through the BSE StAR MF portal, ensuring accurate order submission and timely processing.",
+    "Coordinated with Product, Engineering, AMCs, RTAs, and BSE to resolve operational issues."
+  ],
+  contributions: [
+    "Supported accurate and timely mutual fund order processing through transaction monitoring and validation.",
+    "Used SQL, database metadata, and operational data to investigate issues and identify process gaps.",
+    "Coordinated cross-functional issue resolution with internal teams and external stakeholders."
+  ]
+},
 {id:"internships",tab:"Internships",organization:"Internships",role:"Add role",dates:"Add dates",overview:"Add internship details when ready.",responsibilities:["Replace with confirmed details."],contributions:["Add verified contributions if applicable."]}];
