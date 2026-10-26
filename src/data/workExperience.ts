@@ -64,38 +64,22 @@ export const workExperience:Experience[]=[
   ]
 },
 
+
 {
-  id: "growth-arrow",
-  tab: "Growth Arrow",
-  organization: "Growth Arrow",
-  role: "Finance Intern",
-  dates: "May 2021 – June 2021",
+  id: "internships",
+  tab: "Internships",
+  organization: "Internships",
+  role: "Finance, Marketing & Sales",
+  dates: "April 2019 – June 2021",
   overview:
-    "Worked on financial research, sector analysis, and investment modelling to support valuation and investment decisions.",
+    "Completed internships across finance, marketing, and sales, gaining experience in financial research, data analysis, financial modelling, and market research.",
   responsibilities: [
-    "Produced sector reports and investment memos through research and data aggregation using Microsoft Excel and Word.",
-    "Analyzed market trends and company financials to support investment recommendations.",
-    "Created financial models for valuation analysis and capital allocation decisions."
+    "Growth Arrow | Finance Intern (May 2021 – June 2021): Produced sector reports and investment memos using Microsoft Excel and Word, analyzed market trends and company financials, and created financial models for valuation and capital allocation decisions.",
+    "Power Square India Pvt. Ltd. | Marketing and Sales Intern (April 2019 – May 2019): Developed marketing collateral, coordinated outreach activities, analyzed customer feedback and sales data, and prepared reports on market trends and competitor activities."
   ],
   contributions: [
-    "Supported investment analysis by consolidating financial data, evaluating market trends, and modelling potential investment outcomes."
-  ]
-},
-{
-  id: "power-square",
-  tab: "Power Square",
-  organization: "Power Square India Pvt. Ltd.",
-  role: "Marketing and Sales Intern",
-  dates: "April 2019 – May 2019",
-  overview:
-    "Supported marketing and sales initiatives through promotional activities, customer feedback analysis, and market research.",
-  responsibilities: [
-    "Contributed to marketing collateral development and coordinated outreach activities to increase brand engagement.",
-    "Analyzed customer feedback and sales data to identify patterns and refine promotional strategies.",
-    "Prepared reports on market trends and competitor activities to support data-informed business decisions."
-  ],
-  contributions: [
-    "Supported promotional strategy improvements through customer and sales data analysis."
+    "Supported investment analysis through financial research, data aggregation, and valuation modelling at Growth Arrow.",
+    "Supported promotional strategy improvements and data-informed business decisions through customer, sales, and market analysis at Power Square India Pvt. Ltd."
   ]
  }
 ];
