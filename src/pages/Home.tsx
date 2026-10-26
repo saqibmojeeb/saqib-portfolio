@@ -9,7 +9,6 @@ import {
   Github,
   Instagram,
   Mail,
-  Copy,
   ExternalLink,
 } from "lucide-react";
 import { profile } from "../data/profile";
