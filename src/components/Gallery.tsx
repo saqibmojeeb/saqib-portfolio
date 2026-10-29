@@ -138,6 +138,8 @@ export default function Gallery({
                 src={items[active].src}
                 controls
                 autoPlay
+                muted
+                loop
                 playsInline
                 preload="metadata"
               />
