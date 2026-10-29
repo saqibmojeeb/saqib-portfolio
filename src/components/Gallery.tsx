@@ -4,7 +4,6 @@ import {
   ArrowLeft,
   ArrowRight,
   X,
-  Image as ImageIcon,
   Play,
 } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -92,10 +91,6 @@ export default function Gallery({
                 />
               )}
 
-              <span className="image-placeholder">
-                <ImageIcon size={24} />
-                <small>Add your media</small>
-              </span>
             </button>
           ))}
         </div>
