@@ -615,5 +615,37 @@ background-repeat: no-repeat;
   .social-link-detail {
     width: 100%;
   }
+    
+.gallery-tile video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-play-badge {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  pointer-events: none;
+}
+
+.lightbox-figure video {
+  display: block;
+  max-width: min(85vw, 1000px);
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 }
 
