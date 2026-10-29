@@ -67,13 +67,16 @@ export default function Gallery({
               {item.type === "video" ? (
                 <>
                   <video
-                    src={item.src}
-                    muted
-                    playsInline
-                    preload="metadata"
-                    onError={(e) => {
-                      e.currentTarget.style.display = "none";
-                      e.currentTarget.parentElement?.classList.add("missing-image");
+                     src={item.src}
+  muted
+  playsInline
+  preload="auto"
+  onLoadedData={(e) => {
+    e.currentTarget.currentTime = 0.1;
+  }}
+  onError={(e) => {
+    e.currentTarget.style.display = "none";
+    e.currentTarget.parentElement?.classList.add("missing-image");
                     }}
                   />
                   <span className="video-play-badge">
