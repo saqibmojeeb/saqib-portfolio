@@ -8,7 +8,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/saqibmojeeb/",
   github: "https://github.com/saqibmojeeb",
   instagram: "https://www.instagram.com/saqibx___/",
-  resume: "YOUR_GOOGLE_DRIVE_RESUME_URL",
+  resume: "https://drive.google.com/file/d/1MZJESLChaf2MZj6Us_a9SKfijiSgSbgX/view?usp=sharing",  
   location: "",
   profileImage: "/images/profile/profile.jpg"
 };
