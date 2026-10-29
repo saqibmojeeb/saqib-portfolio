@@ -638,7 +638,6 @@ background-repeat: no-repeat;
   pointer-events: none;
 }
 
-/* Desktop video size */
 .lightbox-figure video {
   display: block;
   width: auto;
@@ -649,7 +648,6 @@ background-repeat: no-repeat;
   margin: 0 auto;
 }
 
-/* Preserve mobile sizing */
 @media (max-width: 600px) {
   .lightbox-figure video {
     max-width: 100%;
