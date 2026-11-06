@@ -82,9 +82,6 @@ export function ProfileModal({onClose}:{onClose:()=>void}){
         }
       </div>
 
-      <p className="profile-hint">
-        Edit links in <code>src/data/profile.ts</code>.
-      </p>
     </section>
   </div>
 }
