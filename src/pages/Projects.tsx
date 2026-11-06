@@ -113,8 +113,20 @@ export default function Projects() {
 
             <section className="experience-section">
               <h4>TOOLS & SKILLS</h4>
-              <div className="project-tags">
-                {current.tools.map(tool => <span key={tool}>{tool}</span>)}
+              <div
+                className="project-tags"
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  flexWrap: "wrap",
+                  alignItems: "center",
+                  gap: "10px",
+                  marginTop: "12px"
+                }}
+              >
+                {current.tools.map(tool => (
+                  <span key={tool}>{tool}</span>
+                ))}
               </div>
             </section>
 
@@ -127,4 +139,3 @@ export default function Projects() {
     </main>
   );
 }
-
