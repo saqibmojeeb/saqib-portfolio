@@ -58,9 +58,9 @@ export const galleries: Record<
     },
   ],
 
-  currency: [1, 2, 3, 4].map((n) => ({
-    src: `/images/currency/currency-0${n}.jpg`,
-    alt: "Add a banknote or coin collection photograph",
-    type: "image",
-  })),
+ currency: [1, 2, 3, 4, 5, 6, 7].map((n) => ({
+  src: `/images/currency/currency-0${n}.jpeg`,
+  alt: "A photograph from my personal coin and currency collection",
+  type: "image",
+})),
 };
