@@ -14,7 +14,7 @@ export default function Brand() {
           <div>
             <h2>From idea to brand</h2>
             <p>TheNextChap is my T-shirt brand. Creating it gave me practical experience with brand identity, product presentation, catalogues, packaging, and building an online presence.</p>
-            <p>I’m not actively updating it at the moment, but it remains an achievement I’m proud of: taking an idea and turning it into a real brand.</p>
+            <p>What started as an idea became a brand I'm proud to have built from the ground up.</p>
             <a className="brand-external" href="https://www.thenextchap.com/" target="_blank" rel="noreferrer">Visit TheNextChap website <ExternalLink size={15} /></a>
           </div>
         </div>
