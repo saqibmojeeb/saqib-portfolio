@@ -12,9 +12,13 @@ import type { GalleryItem } from "../data/galleries";
 export default function Gallery({
   title,
   items,
+  eyebrow = "A COLLECTION OF MOMENTS",
+  description,
 }: {
   title: string;
   items: GalleryItem[];
+  eyebrow?: string;
+  description?: string;
 }) {
   const [active, setActive] = useState<number | null>(null);
 
