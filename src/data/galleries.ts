@@ -9,9 +9,9 @@ export const galleries: Record<
   "travel" | "fitness" | "currency",
   GalleryItem[]
 > = {
-  travel: [1, 2, 3, 4, 5, 6].map((n) => ({
-    src: `/images/travel/travel-0${n}.jpg`,
-    alt: "Add a personal travel photograph",
+  travel: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((n) => ({
+    src: `/images/travel/travel-${String(n).padStart(2, "0")}.jpeg`,
+    alt: "Travel and adventure moments",
     type: "image",
   })),
 
