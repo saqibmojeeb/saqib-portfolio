@@ -655,3 +655,57 @@ background-repeat: no-repeat;
     max-height: 65vh;
   }
 }
+/* Brand page: mobile layout fix */
+@media (max-width: 600px) {
+  .brand-page {
+    padding: 18px 12px 130px;
+  }
+
+  .brand-frame {
+    padding: 24px 18px;
+  }
+
+  .brand-frame .back-link {
+    margin-bottom: 32px;
+  }
+
+  .brand-frame .eyebrow {
+    font-size: 9px;
+    line-height: 1.7;
+  }
+
+  .brand-frame h1 {
+    font-size: clamp(38px, 10vw, 52px);
+    overflow-wrap: anywhere;
+  }
+
+  .brand-lede {
+    font-size: 17px;
+  }
+
+  .brand-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+    margin-top: 28px;
+    padding: 20px;
+  }
+
+  .brand-mark {
+    width: 120px;
+    height: 120px;
+    font-size: 30px;
+  }
+
+  .brand-card h2 {
+    font-size: 22px;
+  }
+
+  .brand-card p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .brand-external {
+    font-size: 14px;
+  }
+}
